@@ -14,7 +14,7 @@
       <slot />
     </main>
     <footer class="bg-primary text-textLight p-4 text-center mt-8">
-      <p>&copy; 2025 Fokus Zona Admin. All rights reserved.</p>
+      <p>&copy; 2025 Focus Zona Admin. All rights reserved.</p>
     </footer>
   </div>
 </template>

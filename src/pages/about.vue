@@ -1,12 +1,11 @@
 <template>
   <div class="container mx-auto py-8">
-    <h1 class="text-4xl font-bold text-center mb-8">About Fokus Zona</h1>
+    <h1 class="text-4xl font-bold text-center mb-8">About Focus Zona</h1>
     <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
       <p class="mb-4">
-        Welcome to Fokus Zona, your ultimate source of motivation and inspiration for the Balkan audience.
-        Founded with a passion for personal growth and success, Fokus Zona started as an Instagram page
-        dedicated to sharing powerful quotes and messages in Serbian, aiming to ignite the spark of motivation
-        in everyone.
+        Welcome to Focus Zona, your ultimate source of motivation and inspiration.
+        Founded with a passion for personal growth and success, Focus Zona started as an Instagram page
+        dedicated to sharing powerful quotes and messages, aiming to ignite the spark of motivation in everyone.
       </p>
       <p class="mb-4">
         Our mission is simple: to spread motivation across the Balkans. We believe that with the right mindset
@@ -21,8 +20,8 @@
         inspired wherever you go.
       </p>
       <p>
-        Join us in our mission to cultivate a positive and proactive mindset throughout the Balkans. Together,
-        we can achieve greatness.
+        Join us in our mission to cultivate a positive and proactive mindset.
+        Together, we can achieve greatness.
       </p>
     </div>
   </div>

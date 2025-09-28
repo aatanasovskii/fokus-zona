@@ -9,15 +9,15 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Fokus Zona - Motivation for the Balkans',
+      title: 'Focus Zona',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Fokus Zona is an Instagram motivational page that shares quotes in Serbian for the Balkan audience. Find blogs, digital products, and motivation here.' },
+        { hid: 'description', name: 'description', content: 'Focus Zona is an Instagram motivational page that shares quotes in Serbian for the Balkan audience. Find blogs, digital products, and motivation here.' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/png', href: '/logo.png' }
       ]
     }
   },

@@ -26,7 +26,7 @@
       <div class="mt-8 text-center">
         <h2 class="text-2xl font-bold mb-4">Find Us On</h2>
         <div class="flex justify-center space-x-6">
-          <a href="https://www.instagram.com/fokus.zona" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gold text-4xl">
+          <a href="https://www.instagram.com/focus.zona" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gold text-4xl">
             <i class="fab fa-instagram"></i> <!-- Placeholder for Instagram icon -->
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gold text-4xl">
