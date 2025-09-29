@@ -1,0 +1,167 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #f2f2f2;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 24rem;
+    background-image: url('https://via.placeholder.com/1500x500/000000/FFFFFF?text=Motivational+Background');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Products Section */
+.products-section {
+    padding: 3rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.product-card {
+    background-color: #2d3748; /* bg-secondary */
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.product-content {
+    padding: 1rem;
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    color: #f2f2f2;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+}
+
+/* Quotes Section */
+.quotes-section {
+    padding: 3rem 0;
+    background-color: #2d3748; /* bg-secondary */
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.quotes-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+@media (min-width: 768px) {
+    .quotes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .quotes-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.quote-card {
+    background-color: #1a202c; /* bg-primary */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.quote-author {
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #89CFF0; /* baby blue */
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #89CFF0; /* baby blue */
+    color: #000;
+    border: 1px solid #89CFF0;
+}
+
+.btn-secondary:hover {
+    background-color: #000;
+    color: #fff;
+}
+

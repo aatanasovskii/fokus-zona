@@ -1,0 +1,82 @@
+.layout-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a202c; /* bg-primary */
+    color: #f2f2f2;
+}
+
+/* Fixed Header */
+.layout-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a202c;
+    color: #f2f2f2;
+    padding: 1rem;
+    z-index: 1000; /* ensure it’s on top of content */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.layout-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.layout-logo-img {
+    height: 1em;
+    width: 1em;
+    object-fit: contain;
+}
+
+.layout-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .layout-menu {
+        margin-top: 0;
+    }
+}
+
+.layout-link {
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: color 0.2s;
+}
+
+.layout-link:hover {
+    color: #89CFF0; /* text-accent */
+}
+
+/* Adjust main to leave space for fixed header */
+.layout-main {
+    flex-grow: 1;
+    margin-top: 72px; /* adjust according to header height */
+}
+
+.layout-footer {
+    background-color: #1a202c;
+    color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+}

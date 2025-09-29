@@ -1,0 +1,89 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-description {
+    font-size: 1.125rem;
+    color: #4a5568; /* Tailwind gray-700 */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #cbd5e0; /* Tailwind gray-300 */
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #2d3748; /* Tailwind gray-800 */
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 0 0 3px rgba(66,153,225,0.5); /* Tailwind blue-400 focus */
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.social-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #4a5568;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: #4a5568;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: gold;
+}

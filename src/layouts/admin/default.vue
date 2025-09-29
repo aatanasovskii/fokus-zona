@@ -20,7 +20,4 @@
 </template>
 
 <style>
-.text-gold {
-  color: #FFD700; /* Gold color */
-}
 </style>
